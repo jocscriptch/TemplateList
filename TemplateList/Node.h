@@ -20,22 +20,26 @@ template <class T>
 Node<T>::Node(T *obj, Node<T> *next):Obj(obj), Next(next) {}
 
 template <class T>
-void Node<T>::setObj(T *obj) {
+void Node<T>::setObj(T *obj) 
+{
 	Obj = obj;
 }
 
 template <class T>
-T *Node<T>::getObj()const {
+T *Node<T>::getObj()const 
+{
 	return Obj;
  }
 
 template <class T>
-void Node<T>::setNext(Node<T> *next) {
+void Node<T>::setNext(Node<T> *next) 
+{
 	Next = next;
 }
 
 template <class T>
-Node<T> *Node<T>:: getNext() {
+Node<T> *Node<T>:: getNext() 
+{
 	return Next;
 }
 

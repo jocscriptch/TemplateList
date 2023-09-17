@@ -129,11 +129,12 @@
   <ItemGroup>
     <ClCompile Include="Cat.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Node.cpp" />
     <ClCompile Include="Person.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cat.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="ListIterator.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Person.h" />
   </ItemGroup>
